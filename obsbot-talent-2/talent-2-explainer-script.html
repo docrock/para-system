@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talent 2 Explainer Script</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f3ee; --card: #ffffff; --ink: #1d1b19; --muted: #6b645c;
+  --accent: #c2410c; --accent-soft: #fdeee4; --line: #e6e0d7;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141210; --card: #1e1b18; --ink: #ede8e1; --muted: #a39b91;
+    --accent: #fb923c; --accent-soft: #2c1d12; --line: #34302b;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141210; --card: #1e1b18; --ink: #ede8e1; --muted: #a39b91;
+  --accent: #fb923c; --accent-soft: #2c1d12; --line: #34302b;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 18px/1.6 "Source Serif 4", Georgia, serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+header h1 { font-family: Archivo, system-ui, sans-serif; font-weight: 800;
+  font-size: clamp(30px, 6vw, 44px); line-height: 1.1; margin: 0 0 8px; letter-spacing: -0.01em; }
+header p { color: var(--muted); margin: 0 0 36px; font-style: italic; }
+.seg { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 22px 24px 14px; margin-bottom: 18px; }
+.seg h2 { font-family: Archivo, system-ui, sans-serif; font-weight: 700; font-size: 21px;
+  margin: 0 0 10px; display: flex; align-items: center; gap: 12px; }
+.num { flex: none; width: 32px; height: 32px; border-radius: 50%; background: var(--accent);
+  color: var(--card); display: grid; place-items: center; font-size: 16px; }
+ul { padding-left: 20px; margin: 6px 0; }
+li { margin: 6px 0; }
+li::marker { color: var(--accent); }
+strong { font-family: Archivo, system-ui, sans-serif; font-weight: 700; font-size: 0.95em; }
+li.say { list-style: none; margin-left: -20px; background: var(--accent-soft);
+  border-left: 4px solid var(--accent); padding: 10px 14px; border-radius: 6px; }
+a { color: var(--accent); }
+.sources { font-size: 16px; }
+@media print { body { background: #fff; } .seg { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<main>
+<header><h1>OBSBOT Talent 2: Explainer Script</h1><p>Informative video, not a tutorial or review. Doc Rock.</p></header>
+<section class="seg"><h2><span class="num">1</span>The Hook: The Pipe Organ</h2>
+<ul>
+<li><strong>The problem:</strong> A traditional multicam live stream is a tangle of capture cards, laptops, dongles and cables. Running it alone feels like playing a pipe organ while solving a Rubik's Cube.
+</li>
+<li><strong>The fix:</strong> The OBSBOT Talent 2 puts a TV production truck's job (switching, encoding, monitoring and recording) into a 7-inch touchscreen about the size and weight of a hardcover book (around 869 grams).
+</li>
+<li class="say"><strong>Say it:</strong> "This used to take a van, a crew and a guy yelling 'Ready camera two.' Now it fits in a backpack."
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">2</span>What It Is (The Elevator Pitch)</h2>
+<ul>
+<li><strong>Define it:</strong> An all-in-one multicam live streaming and production studio. It's your switcher, encoder, monitor and recorder in one box.
+</li>
+<li><strong>The philosophy:</strong> "Less Setup. More Time to Create." You don't need a dedicated PC or OBS Studio, and you don't need to sort out audio and video routing on a laptop.
+</li>
+<li><strong>Who it's for:</strong> Solo creators, small churches, podcasters, event streamers and small businesses. It suits anyone who has the cameras but has never had a crew.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">3</span>The Inputs: The Traffic Cop</h2>
+<ul>
+<li><strong>The scale:</strong> Up to 16 video sources live at once.
+</li>
+<li><strong>The breakdown:</strong>
+<ul>
+<li>4 HDMI inputs for mirrorless and cinema cameras. Two take 4K60 and two take 1080p60, so put your best cameras on ports 1 and 2.
+</li>
+<li>2 USB inputs (one USB-A 3.0, one USB-C 3.0) for webcams.
+</li>
+<li>Up to 10 IP network sources over NDI, SRT, RTSP or RTMP, plus local media files for playback.
+</li></ul>
+</li>
+<li><strong>The freedom:</strong> You aren't locked into one brand. A Sony on HDMI, a Logitech on USB and a phone over the network can all be in the same show.
+</li>
+<li><strong>Plain English:</strong> "IP sources means a camera that sends its picture over your network instead of an HDMI cable. Fewer cables taped to the floor."
+</li>
+<li><strong>The pipe that feeds it:</strong> A 2.5 Gbps Ethernet port, more than twice the bandwidth of standard gigabit. That matters once several network cameras share one cable.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">4</span>The Visual Command Center</h2>
+<ul>
+<li><strong>The glass:</strong> A 7-inch AMOLED touchscreen at 1080p, 800 nits and a 100,000:1 contrast ratio, easy to read even in a bright room.
+</li>
+<li><strong>True 4K:</strong> It streams and records in 4K at 60 fps. The original Talent topped out at 1080p, so that's a real jump.
+</li>
+<li><strong>Two HDMI outputs:</strong> One carries the clean program feed to a TV, projector or capture device. The other carries a multiview grid so you can watch every camera on a bigger screen.
+</li>
+<li><strong>Any orientation:</strong> One toggle swaps 16:9 landscape for YouTube and Twitch with 9:16 vertical for TikTok, Reels and Shorts.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">5</span>Production Truck Features</h2>
+<ul>
+<li><strong>Video follows audio:</strong> It cuts to whoever is talking, so it works like a technical director you never have to pay. Great for podcasts where nobody wants to touch the switcher.
+</li>
+<li><strong>4-channel ISO recording:</strong>
+<ul>
+<li>"ISO means isolated. Along with the show you switched live, it saves each camera as its own clean file."
+</li>
+<li>Four separate 4K60 feeds, up from two 1080p feeds on the original.
+</li>
+<li>Saves to 128GB internal storage, a microSD card up to 1TB, or an external USB drive, in MP4 or MOV using H.264 or H.265.
+</li>
+<li>Long recordings split into chunks automatically, so one glitch doesn't take out a three-hour session.
+</li>
+<li><strong>Resolve tie-in:</strong> "Drop all four ISOs into a multicam clip in DaVinci Resolve and recut the show afterward. You record the stems once and remix them as often as you like. That's the Mixtape Mindset."
+</li></ul>
+</li>
+<li><strong>Built-in graphics:</strong> Picture-in-picture, lower thirds, scoreboards, countdown timers and social overlays, all controlled from the screen while you're live.
+</li>
+<li><strong>Instant replay:</strong> Saves highlight clips during the show, including slow motion, and can replay the most recent moment with one tap. Normally that takes a separate replay server. Useful for sports, competitions and podcast reaction moments.
+</li>
+<li><strong>Built-in audio mixer:</strong> Two 3.5mm mic/line inputs and a headphone jack, with levels set on the screen.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">6</span>Reliable Broadcasting: Power and Connection</h2>
+<ul>
+<li><strong>Two hot-swappable batteries:</strong> Standard NP-F batteries, the same ones many LED panels and field monitors use. Pull a dead one mid-stream and the broadcast keeps running.
+</li>
+<li><strong>Wireless:</strong> Four antennas on top for Wi-Fi 6 and 5G cellular, for when there's no Ethernet at the venue.
+</li>
+<li><strong>Multistreaming:</strong> Goes out to up to four platforms at once, such as YouTube, Twitch and Facebook, with no third-party restreaming subscription.
+</li>
+<li><strong>Tally lights:</strong> The lights on the back show battery status and work as NDI tally, so the people on camera can tell which camera is live.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">7</span>The OBSBOT Ecosystem</h2>
+<ul>
+<li><strong>The pitch:</strong> It works with any camera, but it gets a lot more useful if you already own OBSBOT gear like the Tail Air or the Tiny series.
+</li>
+<li><strong>Camera control on the device:</strong> Pan, tilt, zoom, exposure, saved preset positions and AI subject tracking, all from the Talent 2's screen.
+</li>
+<li><strong>One-tap sync:</strong> One button starts recording on every connected OBSBOT camera, using the SD card inside each one. That gives you a backup copy of every angle with no extra effort.
+</li>
+<li class="say"><strong>Say it:</strong> "One person can run a three-camera show and still have a hand free for coffee."
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">8</span>Know Before You Buy</h2>
+<ul>
+<li><strong>Price:</strong> $2,099 USD from OBSBOT, Amazon and B&amp;H.
+</li>
+<li><strong>Not in the box:</strong> Batteries. Budget for NP-F batteries, a fast microSD card and maybe a drive.
+</li>
+<li><strong>No XLR inputs:</strong> Audio comes in over 3.5mm. To use a pro mic like an SM7B, run it through a small mixer or interface first and feed that into the Talent 2.
+</li>
+<li><strong>Network delay:</strong> Reviewers noticed NDI feeds run slightly behind HDMI. That's normal any time network and wired video are mixed, and worth knowing before a camera looks out of sync.
+</li>
+<li><strong>The upgrade case:</strong> Compared with the original Talent, you get 4K instead of 1080p, ten IP sources instead of three, and four ISOs instead of two.
+</li></ul>
+</section>
+<section class="seg"><h2><span class="num">9</span>The Close: Your Permission Slip</h2>
+<ul>
+<li class="say"><strong>Callback to the hook:</strong> "Remember that pipe organ? This turns it into one keyboard."
+</li>
+<li class="say"><strong>The message:</strong> "The gear was never what stood between you and a multicam show. It was the setup. Once the setup gets out of the way, you're left with the part that matters, which is showing up and making the thing."
+</li>
+<li><strong>CTA:</strong> "Tell me in the comments what you'd plug in first and what kind of show you'd run with it."
+</li></ul>
+</section>
+<section class="seg sources"><h2>Sources</h2>
+<ul>
+<li><a href="https://www.obsbot.com/obsbot-talent-2-live-streaming-studio" target="_blank" rel="noopener">OBSBOT Talent 2 product page</a>
+</li>
+<li><a href="https://www.obsbot.com/news/talent-2-launch" target="_blank" rel="noopener">OBSBOT Talent 2 launch news</a>
+</li>
+<li><a href="https://www.obsbot.com/explore/obsbot-talent-2/streaming-and-recording" target="_blank" rel="noopener">OBSBOT streaming and recording guide</a>
+</li>
+<li><a href="https://www.obsbot.com/store/products/talent-2" target="_blank" rel="noopener">OBSBOT store page</a>
+</li>
+<li><a href="https://www.bhphotovideo.com/explora/video/news/obsbot-details-talent-2-all-in-one-streaming-and-switching-monitor" target="_blank" rel="noopener">B&amp;H Explora: OBSBOT Details Talent 2</a>
+</li>
+<li><a href="https://www.sweetwater.com/store/detail/Talent2--obsbot-talent-2-17-channel-4k-60-fps-video-switcher" target="_blank" rel="noopener">Sweetwater: OBSBOT Talent 2</a>
+</li>
+<li><a href="https://www.whatdigitalcamera.com/photography-news/obsbot-launches-7in-talent-2-in-major-upgrade-of-video-streaming-and-production-monitor" target="_blank" rel="noopener">What Digital Camera launch coverage</a>
+</li>
+<li><a href="https://mightygadget.com/obsbot-talent-2-review/" target="_blank" rel="noopener">Mighty Gadget review</a>
+</li>
+<li><a href="https://geekazine.com/cool/review/obsbot-talent-2-review-the-ultimate-all-in-one-live-studio/" target="_blank" rel="noopener">Geekazine review</a>
+</li>
+<li><a href="https://www.newsshooter.com/2026/09/22/obsbot-talent-2-streaming-combo/" target="_blank" rel="noopener">Newsshooter: Talent 2 Streaming Combo</a>
+</li></ul>
+</section>
+</main>
+</body>
+</html>
